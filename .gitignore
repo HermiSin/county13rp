@@ -1,0 +1,44 @@
+# Lokale Werkzeuge
+.DS_Store
+.idea/
+.vscode/
+node_modules/
+__pycache__/
+*.pyc
+
+# Zugangsdaten und produktive Konfiguration
+.env
+.env.*
+!.env.example
+credentials*.json
+*access*.json
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+server.cfg
+permissions.cfg
+
+# Betrieb, Daten und Sicherungen
+txData/
+cache/
+logs/
+backups/
+*.log
+*.sql
+*.sql.gz
+*.sqlite*
+*.db
+*.zip
+*.tar
+*.tar.gz
+
+# Geschützte Projektquellen und lokale Infrastruktur
+private/
+internal/
+infra/
+soul.md
+County-13-Serverkonzept.md
+County-13-Lore.md
